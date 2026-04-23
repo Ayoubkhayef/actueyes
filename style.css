@@ -228,6 +228,9 @@ em { font-family: var(--ff-display); font-style: italic; color: var(--gold-light
 
 /* --- HERO --- */
 .hero {
+  background-image: url("assets/images/jojo.png");
+  background-size: cover;
+  background-position: center;
   position: relative;
   min-height: 100vh;
   display: flex;
