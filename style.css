@@ -231,6 +231,7 @@ em { font-family: var(--ff-display); font-style: italic; color: var(--gold-light
   background-image: url("jojo.png");
   background-size: 110%;
   background-position: center top;
+  background-repeat: no-repeat;
   position: relative;
   min-height: 100vh;
   display: flex;
