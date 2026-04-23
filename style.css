@@ -11,21 +11,29 @@
 }
 
 :root {
-  --bg:         #c4a1a1;
-  --bg2:        #a06868;
-  --bg3:        #161616;
-  --gold:       #8b3fa8;        /* violet principal du logo */
-  --gold-light: #b46ed0;        /* violet clair / hover     */
-  --cream:      #ffffff;        /* blanc pur                */
-  --text:       #e8e8e8;        /* blanc cassé texte        */
-  --text-muted: #8a8a8a;        /* gris argenté sous-titre  */
-  --border:     rgba(139, 63, 168, 0.22);
+  /* BACKGROUND */
+  --bg:         #ffffff;
+  --bg2:        #f6f8fb;
+  --bg3:        #eef2f7;
 
+  /* PRIMARY (style Firmoo) */
+  --gold:       #2f80ed;     /* bleu principal */
+  --gold-light: #56ccf2;     /* bleu clair hover */
+
+  /* TEXT */
+  --cream:      #111111;
+  --text:       #222222;
+  --text-muted: #6b7280;
+
+  /* BORDER */
+  --border:     rgba(0, 0, 0, 0.08);
+
+  /* TYPO */
   --ff-display: 'Cormorant Garamond', Georgia, serif;
   --ff-ui:      'Syne', sans-serif;
 
-  --radius:     4px;
-  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --radius:     6px;
+  --transition: 0.3s ease;
 }
 
 html { scroll-behavior: smooth; }
