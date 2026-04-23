@@ -228,9 +228,9 @@ em { font-family: var(--ff-display); font-style: italic; color: var(--gold-light
 
 /* --- HERO --- */
 .hero {
-  background-image: url("assets/images/jojo.png");
-  background-size: cover;
-  background-position: center;
+  background-image: url("jojo.png");
+  background-size: 110%;
+  background-position: center top;
   position: relative;
   min-height: 100vh;
   display: flex;
@@ -238,7 +238,22 @@ em { font-family: var(--ff-display); font-style: italic; color: var(--gold-light
   padding: 10rem 5vw 6rem;
   overflow: hidden;
 }
-
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.6) 0%,
+    rgba(0,0,0,0.3) 40%,
+    rgba(0,0,0,0.1) 100%
+  );
+  z-index: 0;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
 .hero-bg {
   position: absolute;
   inset: 0;
